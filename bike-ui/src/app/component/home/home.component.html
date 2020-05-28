@@ -1,0 +1,72 @@
+<div class="wrapper">
+  <div class="clash-card barbarian">
+    <div class="clash-card__image clash-card__image--barbarian">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png" alt="barbarian" />
+    </div>
+    <div class="clash-card__level clash-card__level--barbarian">BIKE APP</div>
+    <div class="clash-card__unit-name">FILL OUT FORM</div>
+    <div class="clash-card__unit-description">
+
+      <form [formGroup]="bikeForm" (ngSubmit)="submitRegistration()" formnovalidate>
+        <div *ngIf="validMessage != ''">
+          <h3 class="has-info">{{validMessage}}</h3>
+        </div>
+        <div class="form__group">
+          <label class="form__label">NAME</label>
+          <input type="text" class="form__field" formControlName="name" required autofocus />
+        </div>
+        <div class="form__group">
+          <label class="form__label">EMAIL</label>
+          <input type="email" class="form__field" formControlName="email" required />
+        </div>
+        <div class="form__group">
+          <label class="form__label">PHONE</label>
+          <input type="text" class="form__field" formControlName="phone" required />
+        </div>
+        <div class="form__group">
+          <label class="form__label">MODEL</label>
+          <select class="form__label_select" formControlName="model" required>
+            <option value="">select a bike</option>
+            <option *ngFor="let m of models" [value]="m">
+              {{m}}
+            </option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label">SERIAL NUMBER</label>
+          <input type="text" class="form__field" formControlName="serialNumber" required />
+        </div>
+        <div class="form__group">
+          <label class="form__label">PRICE</label>
+          <input type="text" class="form__field" formControlName="purchasePrice" required />
+        </div>
+        <div class="form__group">
+          <label class="form__label">DATE</label>
+          <input type="date" class="form__field" formControlName="purchaseDate" required  />
+        </div>
+
+        <button type="submit" class="new-button" (click)="submitRegistration()">SUBMIT</button>
+      </form>
+    </div>
+
+
+    <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+      <div class="one-third">
+        <div class="stat">20<sup>S</sup></div>
+        <div class="stat-value">Training</div>
+      </div>
+
+      <div class="one-third">
+        <div class="stat">16</div>
+        <div class="stat-value">Speed</div>
+      </div>
+
+      <div class="one-third no-border">
+        <div class="stat">150</div>
+        <div class="stat-value">Cost</div>
+      </div>
+
+    </div>
+
+  </div> <!-- end clash-card barbarian-->
+</div> <!-- end wrapper -->

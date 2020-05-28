@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: justify;
+}
+
+.wrapper {
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+
+
+.clash-card {
+  background: white;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  border-radius: 14px + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.clash-card__image--barbarian {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+}
+
+
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.clash-card__level--barbarian {
+  color: #EC9B3B;
+  margin-top: 50px;
+}
+
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.clash-card__unit-stats--barbarian {
+  background: #EC9B3B;
+}
+  .one-third {
+     border-right: 2px solid #BD7C2F;
+  }
+
+
+
+.clash-card__unit-stats {
+  
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+  .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+  }
+  
+  sup {
+    position: absolute;
+    bottom: 4px; 
+    font-size: 45%;
+    margin-left: 2px;
+  }
+  
+  .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .no-border {
+    border-right: none;
+  }
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+
+.form__group {
+    position: relative;
+    padding: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form__field {
+width: 100%;
+outline: 0;
+border: none;
+font-size: 1.2rem;
+color: rgb(87, 78, 78);
+padding: absolute;
+background: rgba(231, 231, 231, 0.733);
+border-radius: 7px;
+transition: border-color 0.2s;
+}
+
+.form__label {
+position: absolute;
+top: 0;
+display: block;
+transition: 0.2s;
+font-size: 0.9rem;
+color: black;
+text-transform: uppercase;
+}
+
+.form__label_select{
+
+margin-top: 8px;
+color: #414141;
+display: block; 
+border: none;
+font-size: 0.9rem;
+}
+
+.new-button{
+
+  background: rgba(65, 93, 109, 0.600);
+  color: white;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+  border-radius: 10px;  
+}

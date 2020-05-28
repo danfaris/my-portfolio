@@ -1,0 +1,77 @@
+<div class="row">
+  <a class="btn btn=primary" routerLink="/admin">back to main</a>
+</div>
+
+
+
+<div class="wrapper">
+  <div class="clash-card barbarian">
+    <div class="clash-card__image clash-card__image--barbarian">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png" alt="barbarian" />
+    </div>
+    <div class="clash-card__level clash-card__level--barbarian">BIKE APP</div>
+    <div class="clash-card__unit-name">BIKE.INFO</div>
+    <div class="clash-card__unit-description">
+<!-- 
+      <div>
+        <div class="form__group">
+          <label class="form__label">Buyer Name</label>
+          <div>{{bikeReg.name}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Email</label>
+          <div class="form-control">{{bikeReg.email}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Phone</label>
+          <div class="form-control">{{bikeReg.phone}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Bike Model</label>
+          <div class="form-control">{{bikeReg.model}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Bike Serial Number</label>
+          <div class="form-control">{{bikeReg.serialNumber}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Purchase Price</label>
+          <div class="form-control">{{bikeReg.purchasePrice}}</div>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Purchase Date</label>
+          <div class="form-control">{{bikeReg.purchaseDate}}</div>
+        </div>
+      </div> -->
+
+      <table>
+      <tr *ngFor="let bike of bikeReg" >
+
+        <td>{{bikeReg.name}}</td>
+
+      </tr>
+
+    </table>
+
+    </div>
+
+    <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+      <div class="one-third">
+        <div class="stat">20<sup>S</sup></div>
+        <div class="stat-value">Training</div>
+      </div>
+
+      <div class="one-third">
+        <div class="stat">16</div>
+        <div class="stat-value">Speed</div>
+      </div>
+
+      <div class="one-third no-border">
+        <div class="stat">150</div>
+        <div class="stat-value">Cost</div>
+      </div>
+
+    </div>
+
+  </div> <!-- end clash-card barbarian-->
+</div> <!-- end wrapper -->
