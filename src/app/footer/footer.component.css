@@ -1,0 +1,12 @@
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    display: inline-grid;
+    /* box-shadow: 0 2rem 4rem rgb(161, 159, 159); */
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+
+}
+
