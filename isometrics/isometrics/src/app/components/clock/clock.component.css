@@ -1,0 +1,9 @@
+.clock {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background: url(assets/clock.png);
+    background-size: cover;
+    border: 4px solid #091921;
+}

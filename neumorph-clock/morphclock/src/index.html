@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Morphclock</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <app-root></app-root>
+    <script>
+        const deg = 6;
+        const hr = document.getElementById('#hr');
+        const mn = document.querySelector('#mn');
+        const sc = document.querySelector('#sc');
+
+        setInterval(() => {
+            let day = new Date();
+            let hh = day.getHours() * 30;
+            let mm = day.getHours() * deg;
+            let ss = day.getHours() * deg;
+
+            hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
+            mn.style.transform = `rotateZ(${mm}deg)`;
+            sc.style.transform = `rotateZ(${ss}deg)`;
+        })
+    </script>
+</body>
+
+</html>
