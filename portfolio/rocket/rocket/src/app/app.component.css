@@ -33,6 +33,7 @@
     width: 30px;
     height: 200px;
     background: linear-gradient(#00d0ff, transparent);
+    border-radius: 5px;
 }
 
 .scene .rocket::after {
@@ -51,7 +52,7 @@
     position: absolute;
     top: -250px;
     background: rgba(255, 255, 255, 0.5);
-    animation: animateStars 0.2s ease infinite;
+    animation: animateStars 0.2s linear infinite;
 }
 
 @keyframes animateStars {
@@ -65,5 +66,5 @@
 
 img {
     width: 180px;
-    height: 210px;
+    height: 230px;
 }
