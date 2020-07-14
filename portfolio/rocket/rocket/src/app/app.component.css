@@ -27,12 +27,12 @@
 .scene .rocket::before {
     content: '';
     position: absolute;
-    bottom: -180px;
+    bottom: -18 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 30px;
     height: 200px;
-    background: linear-gradient(#00d0ff, transparent);
+    background: linear-gradient( rgb(255, 145, 0), #00d0ff, transparent);
     border-radius: 5px;
 }
 
