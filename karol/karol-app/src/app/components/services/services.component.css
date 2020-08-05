@@ -1,0 +1,79 @@
+.services {
+    background: #12222d;
+    padding: 120px;
+    text-align: center;
+}
+
+.heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.services .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.services .container .serviceBx {
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/* img {
+    width: 80px;
+    height: 70px;
+} */
+
+.card {
+    padding: 10px;
+    font-size: small;
+    text-align: justify;
+}
+
+.services .container .serviceBx img {
+    max-width: 100px;
+}
+
+.services .container .serviceBx h2 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #12222d;
+    float: right;
+    cursor: pointer;
+    color: #12222d;
+    margin: 10px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+}

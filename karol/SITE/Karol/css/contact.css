@@ -1,0 +1,14 @@
+
+#geral{
+    max-width: 950px;
+    margin: 0 auto;
+}
+#bodyy{
+    background-color: #949e93;
+}
+.cover-card {
+	background: silver;
+	padding: 0px;
+	margin: 0px;
+	height:350px;
+}

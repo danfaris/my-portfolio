@@ -1,0 +1,11 @@
+*{border: 0px; padding: 0px;}
+
+body{background-color: #eee;}
+
+.row{padding: 0px; margin:0px;}
+.small{font-size: 13px;}
+.post-content{background-color: #FFF; box-shadow: 0px 0px 1px 0px #999; border-radius: 1px; padding: 10px;}
+.post-content h4{font-weight: normal;}
+.post-content img{width: 150px; height: 120px;}
+.post-content .button{text-align: right; padding: 10px;}
+.post-content .button .btn-info{border-radius: 0px; }

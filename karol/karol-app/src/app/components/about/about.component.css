@@ -1,0 +1,38 @@
+.about {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.about .contentBx {
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+.heading {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.about .imgBx {
+    background: url(/assets/img/stroke.png);
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,60 @@
+
+.footer{
+    width: 100%;
+    height: auto;
+    }
+    
+.footer:hover{
+        color: white;
+    } 
+    .footer1{
+     background-color: #939f93;
+     color: white;
+    
+    }
+    .footer1 h2{
+        margin: 5px;
+        padding: 8px;
+        font-size: 25px;
+        font-family: "Times New Roman", Times, serif;
+        
+    }
+    .footer1 a{
+        color: white;
+    }
+    
+    
+    .footer1 p{
+        margin: 5px;
+        padding-top: 2px;
+        padding-left: 10px;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+        
+    }
+    .footer1 h2{
+        margin: 5px;
+        padding: 5px;
+        border-bottom: 2px solid #6a7169;
+    }
+    /*==========================footer2===========================*/
+    .footer2{
+    
+        background-color: #939f93;
+        color: black;
+        margin: 0;
+        border-top: solid 2px #6a7169; 
+        
+    }
+    .footer2 p{
+        margin: 8px;
+        padding: 8px;
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+    
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+    
+    
+    
