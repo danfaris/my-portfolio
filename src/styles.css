@@ -2,11 +2,13 @@
 
 /* You can add global styles to this file, and also import other style files */
 
-main {
+
+/* main {
     position: relative;
     z-index: 1;
     box-shadow: rgba(61, 61, 65, 0.596);
 }
+ */
 
 
 /*body{
@@ -356,4 +358,29 @@ body {
 
 .site-title {
     font-size: 1.5rem;
+}
+
+.basic-grid {
+    height: 85vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 'a' 'b c' 'd' 'f';
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 240px auto auto 240px;
+}
+
+.card:nth-child(1) {
+    grid-area: a;
+}
+
+.card:nth-child(2) {
+    grid-area: b, c;
+}
+
+.card:nth-child(3) {
+    grid-area: d;
+}
+
+.card:nth-child(4) {
+    grid-area: f;
 }
