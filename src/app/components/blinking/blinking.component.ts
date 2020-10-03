@@ -12,7 +12,7 @@ export class BlinkingComponent implements OnInit {
 
   ngOnInit(): void {
     const options = {
-      strings: ['Innovation.', 'Challenging.', 'Awesome!! I also code Apps, Robots and Devices.',],
+      strings: ['Innovation.', 'Challenging.', 'Awesome!! I code Apps, Robots and Devices.',],
       typeSpeed: 100,
       backSpeed: 100,
       showCursor: true,
