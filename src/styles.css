@@ -1,127 +1,9 @@
 @import "/Users/danilsonfarisato/Desktop/DEVELOPMENT/ANGULAR/portfolio/portfolio2/node_modules/nes.css/css/nes.css";
-
-/* You can add global styles to this file, and also import other style files */
-
-
-/* main {
-    position: relative;
-    z-index: 1;
-    box-shadow: rgba(61, 61, 65, 0.596);
-}
- */
-
-
-/*body{
+body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    background: rgb(5, 5, 5);
-    font-family: 'VT323', monospace;
-    font-size: 24px; 
-    font-family: 'Assistant', sans-serif;
-    font: 1.3rem Inconsolata, monospace; 
-    text-shadow: 0 0 5px #C8C8C8;
-    background-color: black;
-    background-image: radial-gradient(
-    rgba(0, 150, 0, 0.75), black 120%
-  );
-  height: 100vh;
-  
-}
-*/
-
-a {
-    position: relative;
-    color: rgb(40, 237, 70);
-    display: inline-block;
-    padding: 15px 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 34px;
-    overflow: hidden;
-    transition: 0.2s;
-    border-radius: 25px;
-}
-
-
-/* 
-a:hover {
-    color: #1b2024;
-    background: rgb(40, 237, 70);
-    box-shadow: 0 0 10px rgb(40, 237, 70), 0 0 40px, 0 0 80px rgb(40, 237, 70);
-    transition-delay: 1s;
-} */
-
-a span {
-    position: absolute;
-    display: block;
-}
-
-a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(1) {
-    left: 100%;
-    transition: 1s;
-}
-
-a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
-
-a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-
-a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
     display: flex;
     background-color: black;
     background-image: radial-gradient( rgba(0, 150, 0, 0.75), black 120%);
-    height: 100vh;
     font-family: 'VT323', monospace;
     font-size: 14px;
 }
@@ -295,16 +177,7 @@ ul {
     font-size: 1.5rem;
 }
 
-.basic-grid {
-    height: 85vh;
-    display: grid;
-    gap: 1rem;
-    grid-template-areas: 'a' 'b c' 'd' 'f';
-    grid-template-rows: repeat(3, 33%);
-    grid-template-columns: 240px auto auto 240px;
-}
-
-.card:nth-child(1) {
+] .card:nth-child(1) {
     grid-area: a;
 }
 
