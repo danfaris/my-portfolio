@@ -177,7 +177,7 @@ body {
     font-size: 1.5rem;
 }
 
-] .card:nth-child(1) {
+.card:nth-child(1) {
     grid-area: a;
 }
 
