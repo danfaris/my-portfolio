@@ -14,7 +14,7 @@ export class BlinkingComponent implements OnInit {
     const options = {
       strings: ['Innovation.', 'Challenging.', 'Awesome!! I code Apps, Robots and Devices.',],
       typeSpeed: 100,
-      backSpeed: 100,
+      backSpeed: 30,
       showCursor: true,
       cursorChar: '|',
       loop: true

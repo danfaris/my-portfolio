@@ -3,3 +3,10 @@
     font-size: 44px;
     align-items: center;
 }
+
+img {
+    width: 230px;
+    height: 60px;
+    float: right;
+    border-radius: 5px;
+}

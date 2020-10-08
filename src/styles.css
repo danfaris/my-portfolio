@@ -2,10 +2,9 @@
 body {
     margin: 0;
     display: flex;
-    background-color: black;
-    background-image: radial-gradient( rgba(0, 150, 0, 0.75), black 120%);
+    background-color: rgb(41, 41, 41);
     font-family: 'VT323', monospace;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 @keyframes flicker {
@@ -140,7 +139,8 @@ body {
     }
 }
 
-.crt::after {
+
+/* .crt::after {
     content: " ";
     display: block;
     position: absolute;
@@ -167,7 +167,7 @@ body {
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
-}
+} */
 
 .crt {
     animation: textShadow 1.6s infinite;
@@ -175,20 +175,4 @@ body {
 
 .site-title {
     font-size: 1.5rem;
-}
-
-.card:nth-child(1) {
-    grid-area: a;
-}
-
-.card:nth-child(2) {
-    grid-area: b, c;
-}
-
-.card:nth-child(3) {
-    grid-area: d;
-}
-
-.card:nth-child(4) {
-    grid-area: f;
 }

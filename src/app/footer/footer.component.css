@@ -2,6 +2,7 @@ footer {
     width: 20vw;
     padding: 50px;
     align-items: center;
+    z-index: 2;
 }
 
 ul {
@@ -19,6 +20,10 @@ li {
     display: -ms-flexbox;
 }
 
+i {
+    align-items: center;
+}
+
 ul li a .nes-icon {
     transition: 0.5s;
     opacity: 0.6;
@@ -26,4 +31,16 @@ ul li a .nes-icon {
 
 ul li a .nes-icon:hover {
     opacity: 1;
+}
+
+.more-cont {
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    width: 95%;
+}
+
+h1 {
+    margin: 100px;
 }
